@@ -4,11 +4,11 @@
         <meta charset="UTF-8">
         <title>EDF Test</title>
         <link rel="stylesheet" href="{{
-            url_for('static', filename='WebCheck/css/main.css')}}">
+            url_for('static', filename='css/main.css')}}">
     </head>
 
     <body>
-        <img src="WebCheck/static/logo.jpeg">
+        <img src="static/logo.jpeg">
         <br>
         <form action="greet" method = "post">
         {% for message in get_flashed_messages()%}
